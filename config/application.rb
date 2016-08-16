@@ -12,5 +12,6 @@ module Pointer
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.generators.template_engine = :slim
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
