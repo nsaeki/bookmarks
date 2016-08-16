@@ -5,13 +5,13 @@ one:
   client: MyString
   position: MyString
   note: MyString
-  user_id: 1
-  document_id: 1
+  user: one
+  document: one
 
 two:
   type: 
   client: MyString
   position: MyString
   note: MyString
-  user_id: 1
-  document_id: 1
+  user: one
+  document: one
