@@ -1,0 +1,29 @@
+p#notice
+  = notice
+p
+  strong
+    | Type:
+  = @bookmark.type
+p
+  strong
+    | Client:
+  = @bookmark.client
+p
+  strong
+    | Position:
+  = @bookmark.position
+p
+  strong
+    | Note:
+  = @bookmark.note
+p
+  strong
+    | User:
+  = @bookmark.user_id
+p
+  strong
+    | Document:
+  = @bookmark.document_id
+= link_to 'Edit', edit_bookmark_path(@bookmark)
+|  | 
+= link_to 'Back', bookmarks_path
