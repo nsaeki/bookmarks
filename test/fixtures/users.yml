@@ -2,6 +2,11 @@
 
 one:
   email: MyString1
+  # password is password
+  crypted_password: "$2a$10$6lzeOpQia5wrVFm/H2vtMOreAEmIMYSrZ3tTjefSqDmkHiXqzwo3K"
+  salt: "vBJsrwugEabY4rUQxo3R"
 
 two:
   email: MyString2
+  crypted_password: "$2a$10$6lzeOpQia5wrVFm/H2vtMOreAEmIMYSrZ3tTjefSqDmkHiXqzwo3K"
+  salt: "vBJsrwugEabY4rUQxo3R"
